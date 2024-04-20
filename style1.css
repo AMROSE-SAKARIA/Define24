@@ -13,6 +13,7 @@ body{
    height: 175px;
    text-align: center;
    font-size: 25px;
+   margin-top: 75px;
 
  } 
 .f {
@@ -26,11 +27,11 @@ body{
    
     font-size: 29px;
     position: relative/absolute; 
-   text-align: right;
+   text-align:right; 
     
     
 
-  }
+}
 
 
 h1{
@@ -47,23 +48,27 @@ width: auto;
 
 }
 h3{
+   
     text-decoration: underline;
 }
+
 h4{
     font-family: cursive;
+    text-align: center;
 }
 #nav li
 {
     display: inline-block; /* Display menu items horizontally */
     margin-right: 10px; /* Add spacing between menu items */
-   
+   margin-bottom: 12px;
 }
 #nav li a 
 {
     text-decoration: none;
     color: #40ff00;
     font-weight: bold;
-   
+   margin-top: 25px;
+
 }
  
 #nav li a:hover
@@ -71,22 +76,42 @@ h4{
     color:white;
     background-color:#ff8000;
   }
-.c
-{
-    width: 190px;
-    height: 50px;
-  
-    margin-left: 665px;
-    text-align: center;
-    margin-bottom: 15px;
-  border-radius: 30px;
-}
+
 .button{
     background-color: rgb(83, 190, 233);
     color:black;
     width: 120px;
     height: 70px;
     font-size: 2rem;
-    margin: 10px;
+    margin-left: 700px;
     border-radius: 30px;
 }
+
+#menu {
+    list-style-type:  none;
+   
+    font-size: 29px;
+    position: relative/absolute; 
+   text-align:center; 
+}
+#menu li
+{
+    display: inline-block; /* Display menu items horizontally */
+    margin-right: 20px; /* Add spacing between menu items */
+   margin-bottom: 12px;
+}
+#menu li a
+{
+    text-decoration: none;
+    color: #148ddf;
+    font-weight: normal;
+   margin-top: 25px;
+   -webkit-text-stroke-width:2px ;
+   -webkit-text-stroke-color:black 
+
+}
+#menu li a:hover
+ {
+    color:white;
+    background-color:#ff8000;
+  }
