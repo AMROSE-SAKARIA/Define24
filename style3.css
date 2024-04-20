@@ -5,7 +5,7 @@ h1{
 {
     background-color:rgb(236, 249, 249);
     width: 410px;
-    height: 570px;
+    height: 600px;
     margin:auto;
     padding: 10px;
     border-radius: 1rem;
@@ -59,4 +59,18 @@ body {
     font-size: 15px;
     height: 13px;
     text-align: right;
+}
+#home li
+{
+    display: inline-block; /* Display menu items horizontally */
+    margin-right: 20px; /* Add spacing between menu items */
+   margin-bottom: 12px;
+}
+#home li a{
+    text-decoration: none;
+    color: #148ddf;
+    font-weight: normal;
+   margin-top: 25px;
+   -webkit-text-stroke-width:.5px ;
+  margin-left: 135px;
 }
