@@ -10,8 +10,9 @@ Tell us about your project here
 [1.Amrose sakaria](AMROSE-SAKARIA)   
 [2.Atul Alexander vaidian](AtulAV7)   
 [3.Devanath](Devanath2003)   
-[4.Dhanush G Krishnan](Dhanushgk) 
-[4.Ananthakrishnan M](ananthakrishnanm1) 
+[4.Dhanush G Krishnan](Dhanushgk)
+
+[5.Ananthakrishnan M](ananthakrishnanm1) 
 
 ### Link to Project
 [Embed the live link of project](https://enrootdefine.netlify.app/)
