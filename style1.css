@@ -17,13 +17,21 @@ body{
    height: 175px;
    text-align: center;
    font-size: 25px;
-   margin-top: 75px;
+   margin-top: 500px;
 
- } 
+   position: absolute; /* Position the element */
+    bottom: 0; /* Align to the bottom of the page */
+   
+    text-align: center; 
+    font-size: 25px;
+   
+    padding: 20px 0; 
+    z-index: -1;
+}
+ 
 .f {
     margin-top: 20px;
 }
-
 
 
 #nav {
@@ -181,4 +189,7 @@ h4{
 
 a:link{
   text-decoration: none;
+}
+.b p{
+align-content: center;
 }
