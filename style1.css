@@ -1,13 +1,17 @@
+
+
 body{
-    background-image: url('pexels-pixabay-236148.jpg');
+    background-image: url('bg_home.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 7px;
     height: auto;
     width: auto;
+    background-attachment: fixed; 
+  background-size: 100% 100%;
   }
  .b{
-    background-color: rgb(245, 201, 169);
+    background-color: rgba(245, 201, 169, 0.344);
     background-size: cover;
    width:100%;
    height: 175px;
@@ -37,7 +41,7 @@ body{
 h1{
     font-size: 150px;
     text-align:center;
-    color: antiquewhite;
+    color: rgb(254, 130, 41);
     -webkit-text-stroke-width:2px ;
     -webkit-text-stroke-color:black ;
 
@@ -65,7 +69,7 @@ h4{
 #nav li a 
 {
     text-decoration: none;
-    color: #40ff00;
+    color: #5f615f;
     font-weight: bold;
    margin-top: 25px;
 
@@ -96,7 +100,8 @@ h4{
     font-size: 16px;
     border: none;
     cursor: pointer;
-    margin-left: 450px;
+    margin-left: 300px;
+    border-radius: 30px;
   }
   
   
@@ -117,7 +122,7 @@ h4{
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
-    margin-left: 450px;
+    margin-left: 350px;
   }
   
 
@@ -142,4 +147,38 @@ h4{
   .dropdown:hover .dropbtn {
     background-color: #3e8e41;
   }
-  
+  .digi 
+  {
+    background-color: #d27a22;
+    color: #ff8000;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin-left: 250px;
+    border-radius: 30px;
+    text-decoration: none;
+  }
+
+  .a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.a h1 {
+    margin-bottom: 0; 
+    
+}
+
+.a p {
+    margin-top: 0; 
+    color: rgb(26, 25, 25);
+    font-size: 50px;
+    -webkit-text-stroke-width:1px ;
+    -webkit-text-stroke-color:black ;
+}
+
+a:link{
+  text-decoration: none;
+}
